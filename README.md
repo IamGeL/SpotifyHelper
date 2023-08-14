@@ -3,7 +3,6 @@
 <center>
     <h1 align="center">BlockTheSpot</h1>
     <h4 align="center">A multi-purpose adblocker and skip-bypass for the <strong>Spotify for Windows (64 bit)</strong> </h4>
-    <h5 align="center">Please support Spotify by purchasing premium</h5>
     <p align="center">
         <strong>Last updated:</strong> 6 August 2023<br>
         <strong>Last tested version:</strong> 1.2.17.834.g26ee1129
@@ -37,24 +36,15 @@ or
 #### Manual installation
 
 1. Browse to your Spotify installation folder `%APPDATA%\Spotify`
-2. Download `chrome_elf.zip` from [releases](https://github.com/mrpond/BlockTheSpot/releases)
+2. Download `chrome_elf.zip` from [releases]
 3. Unzip `dpapi.dll` and `config.ini` to Spotify directory. 
 
 ### Uninstall:
-* Just run [uninstall.bat](https://raw.githack.com/mrpond/BlockTheSpot/master/uninstall.bat)
+* Just run [uninstall.bat]
 or
 * Remove `dpapi.dll` and `config.ini` from Spotify directory.
 or
 * Reinstall Spotify
-
-### Additional Notes:
-
-* Installation script automatically detects if your Spotify client version is supported, or not. If the version is not supported, you will be prompted to update your Spotify client. To enforce client update, supply an optional parameter `UpdateSpotify` to the installation script. 
-* [Spicetify](https://github.com/khanhas/spicetify-cli) users will need to reapply BlockTheSpot after applying a Spicetify themes/patches.
-* If the automatic install/uninstall scripts do not work, please contact [Nuzair46](https://github.com/Nuzair46).
-* For more support and discussions, join our [Discord server](https://discord.gg/eYudMwgYtY).
-
-
 
 
 
